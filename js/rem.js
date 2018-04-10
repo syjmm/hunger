@@ -20,4 +20,3 @@ resize(1080,"x");
 window.onresize = function(){
    resize(1080,"x"); 
 }
-
