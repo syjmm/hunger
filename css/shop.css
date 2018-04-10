@@ -1,18 +1,10 @@
-*{
-	margin: 0;
-	text-decoration: none;
-	font-style: normal;
-	padding: 0;
-	list-style: none;
-	font-weight: normal;
-	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-	box-sizing: border-box;
-}
-img{
-	width: 100%;
-	height: 100%;
-	border: 0;
-	display: block;
+@font-face {
+  font-family: 'iconfont';  /* project id 563113 */
+  src: url('https://at.alicdn.com/t/font_563113_8q7xr3ymw3f03sor.eot');
+  src: url('https://at.alicdn.com/t/font_563113_8q7xr3ymw3f03sor.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_563113_8q7xr3ymw3f03sor.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_563113_8q7xr3ymw3f03sor.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_563113_8q7xr3ymw3f03sor.svg#iconfont') format('svg');
 }
 #header{
 	width: 100%;
@@ -122,4 +114,42 @@ img{
 	margin-top: 0.38rem;
 	text-align: center;
 
+}
+.dibu{
+	width: 100%;
+	height: 1.51rem;
+	background: #f7f7f7;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}
+.dibu_item{
+	width: 25%;
+	height: 100%;
+	float: left;
+}
+.dibu_item img{
+	width: 0.62rem;
+	height: 0.62rem;
+	display: block;
+	margin-left: 1.00rem;
+	margin-top: 0.3rem;
+	margin-bottom: 0.2rem;
+}
+.dibuwen{
+	font-size: 0.8rem;
+	color: #818181;
+	text-align: center;
+	margin-top: 0.24rem;
+	font-family:'iconfont'; 
+	line-height: 0.8rem;
+}
+.dibu_wen2{
+	font-size: 0.3rem;
+	color: #818181;
+	text-align: center;
+	line-height: 0.3rem;
+}
+.dibu_wen2:hover,.dibuwen:hover {
+	color: #009afb;
 }
